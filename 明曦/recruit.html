@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>recruit</title>
+	<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/recruit.css">
+</head>
+<body>
+<header>
+		<div class="header">
+			<a href="index.html"><img src="img/logo.png" class="logo"></a>
+			<ul class="navigation">
+				<li>主页 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="index.html"><li>&nbsp;&nbsp;&nbsp;主页</li></a>
+					</ol>
+				</li>
+				<li>明曦简介 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="synopsis.html"><li>&nbsp;&nbsp;&nbsp;明曦简介</li></a>
+					</ol>
+				</li>
+				<li>团队成员 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="team.html"><li>&nbsp;&nbsp;&nbsp;团队成员</li></a>
+					</ol>
+				</li>
+				<li>产品介绍 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="notice.html"><li>&nbsp;&nbsp;&nbsp;产品公告</li></a>
+						<a href="login.html"><li>&nbsp;&nbsp;&nbsp;明曦产品</li></a>
+					</ol>
+				</li>
+				<li>招贤纳士 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="recruit.html"><li>&nbsp;&nbsp;&nbsp;量化程序员（quantitative developer）/实习生</li></a>
+						<a href="recruit-two.html"><li>&nbsp;&nbsp;&nbsp;量化投资套利策略研究员</li></a>
+					</ol>
+				</li>
+				<li><a href="login.html">登录</a>/<a href="register.html">注册</a></li>
+			</ul>
+			<i class="fa fa-bars fa-lg logoa"></i>
+		</div>
+	</header>
+			<ul class="navigation1">
+				<li>主页 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="index.html"><li>&nbsp;&nbsp;&nbsp;主页</li></a>
+					</ol>
+				</li>
+				<li>明曦简介 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="synopsis.html"><li>&nbsp;&nbsp;&nbsp;明曦简介</li></a>
+					</ol>
+				</li>
+				<li>团队成员 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="team.html"><li>&nbsp;&nbsp;&nbsp;团队成员</li></a>
+					</ol>
+				</li>
+				<li>产品介绍 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="notice.html"><li>&nbsp;&nbsp;&nbsp;产品公告</li></a>
+						<a href="login.html"><li>&nbsp;&nbsp;&nbsp;明曦产品</li></a>
+					</ol>
+				</li>
+				<li>招贤纳士 <i class="fa fa-angle-down"></i>
+					<ol>
+						<a href="recruit.html"><li>&nbsp;&nbsp;&nbsp;量化程序员（quantitative developer）/实习生</li></a>
+						<a href="recruit-two.html"><li>&nbsp;&nbsp;&nbsp;量化投资套利策略研究员</li></a>
+					</ol>
+				</li>
+				<li><a href="login.html">登录</a>/<a href="register.html">注册</a></li>
+			</ul>
+	<section>
+		<h1><p>量化程序员(quantitative developer)/实习生</p></h1>
+		<div class="section">
+			<div class="content">
+				<p class="heading">【工作内容】</p>
+				<p>1.维护和完善公司的量化交易系统和风投系统;</p>
+				<p>2.为策略研发团队提供技术支持、优化执行效率;</p>
+				<p>3.投研数据的管理和清洗、以及数据库的日常维修等;</p>
+				<p class="heading">【任职要求】</p>
+				<p>1.全日制本科以上学历、计算机或相关专业;</p>
+				<p>2.编程能力突出、熟练掌握C\C++语言和数据结构、掌握Python;</p>
+				<p>3.熟悉Linux开发环境;</p>
+				<p>4.具有较强的沟通能力和快速学习能力。</p>
+				<p class="heading">【薪酬】</p>
+				<p>面议,行业内较高标准。</p>
+			</div>
+			<img src="img/aa.jpg"/>
+		</div>
+	</section>
+<!-- 尾部 -->
+		<footer>
+			<div class="footer">
+				<h2 class="footer-heading" style="font-family:Microsoft YaHei"><strong>明曦资本</strong></h2>
+				<br>
+				<ul class="list-unstyled footer-heading">
+					<li>联系电话: 0571-56570410</li>
+					<li>&nbsp;&nbsp;</li>
+					<li>联系邮箱: contact@mingxifund.com</li>
+					<li>&nbsp;&nbsp;</li>
+					<li>微信公众号：明曦资本</li>
+				</ul>
+				<div class="footer-heading"><img src="img/15.jpg" height="150" width="150"></div>
+			</div>
+			<div class="text-center copyright">
+				&copy;2016 All Rights Reserved. 明曦（杭州）资产管理有限公司 浙ICP备16019070号-1
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function($) {
+			$(window).resize(function(){
+        		if($(this).width()>980){
+        			$('.navigation1').css('display','none')
+        		}
+        	})
+			$('.logoa').click(function(){
+				$('.navigation1').fadeToggle();
+			});
+		});
+		</script>
+</body>
+</html>

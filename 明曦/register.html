@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html"><img src="img/logo.png" class="logo"></a>
+            <ul class="navigation">
+                <li>主页 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="index.html"><li>&nbsp;&nbsp;&nbsp;主页</li></a>
+                    </ol>
+                </li>
+                <li>明曦简介 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="synopsis.html"><li>&nbsp;&nbsp;&nbsp;明曦简介</li></a>
+                    </ol>
+                </li>
+                <li>团队成员 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="team.html"><li>&nbsp;&nbsp;&nbsp;团队成员</li></a>
+                    </ol>
+                </li>
+                <li>产品介绍 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="notice.html"><li>&nbsp;&nbsp;&nbsp;产品公告</li></a>
+                        <a href="login.html"><li>&nbsp;&nbsp;&nbsp;明曦产品</li></a>
+                    </ol>
+                </li>
+                <li>招贤纳士 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="recruit.html"><li>&nbsp;&nbsp;&nbsp;量化程序员（quantitative developer）/实习生</li></a>
+                        <a href="recruit-two.html"><li>&nbsp;&nbsp;&nbsp;量化投资套利策略研究员</li></a>
+                    </ol>
+                </li>
+                <li><a href="login.html">登录</a>/<a href="register.html">注册</a></li>
+            </ul>
+            <i class="fa fa-bars fa-lg logoa"></i>
+        </div>
+    </header>
+            <ul class="navigation1">
+                <li>主页 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="index.html"><li>&nbsp;&nbsp;&nbsp;主页</li></a>
+                    </ol>
+                </li>
+                <li>明曦简介 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="synopsis.html"><li>&nbsp;&nbsp;&nbsp;明曦简介</li></a>
+                    </ol>
+                </li>
+                <li>团队成员 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="team.html"><li>&nbsp;&nbsp;&nbsp;团队成员</li></a>
+                    </ol>
+                </li>
+                <li>产品介绍 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="notice.html"><li>&nbsp;&nbsp;&nbsp;产品公告</li></a>
+                        <a href="login.html"><li>&nbsp;&nbsp;&nbsp;明曦产品</li></a>
+                    </ol>
+                </li>
+                <li>招贤纳士 <i class="fa fa-angle-down"></i>
+                    <ol>
+                        <a href="recruit.html"><li>&nbsp;&nbsp;&nbsp;量化程序员（quantitative developer）/实习生</li></a>
+                        <a href="recruit-two.html"><li>&nbsp;&nbsp;&nbsp;量化投资套利策略研究员</li></a>
+                    </ol>
+                </li>
+                <li><a href="login.html">登录</a>/<a href="register.html">注册</a></li>
+            </ul>
+
+        <section>
+                <h1><p>注册</p></h1>
+                <div class="register-hint" style="background:#f3f3f3;padding:10px 14px;">
+                    <p class="hint-title" style="color:#ce6b54;font-size:14px;">本人同意以下提示：</p>
+                    <span>风险提示：</span>
+                    <p class="hint-content" style="text-indent:2em;margin-bottom:10px;">私募基金投资需承担各类风险，本金可能遭受损失。同时，私募基金投资还要考虑市场风险、信用风险、流动性风险、操作风险等各类投资风险。您在基金认购过程中应当注意核对自己的风险识别和风险承受能力，选择与自己风险识别能力和风险承受能力相匹配的私募基金。</p>
+                    <p style="text-indent:2em;" class="situation">以下一系列问题可在您选择合适的私募基金前，协助评估您的风险承受能力、理财方式及投资目标。</p>
+                    <ol style="margin-left:2em;">
+                        <li style="list-style-type:initial;">本人是承诺为自己购买私募基金产品</li>
+                        <li style="list-style-type:initial;">并符合以下两种之一合格投资者财务条件：</li>
+                        <ol style="margin-left:2em;">
+                            <li style="list-style-type:circle;">符合金融资产不低于300万元（金融资产包括银行存款、股票、债券、基金份额、资产管理计划、银行理财产品、信托计划、保险产品、期货权益等）</li>
+                            <li style="list-style-type:circle;">符合最近三年个人年均收入不低于50万元</li>
+                        </ol>
+                    </ol>
+                </div>
+                
+                <div class="question-area form-group" style="background:#f3f3f3;margin-top:10px;padding:14px;margin-bottom:10px;">
+                    <div class="question-item">
+                        <p style="font-weight:bold;">1. 您的学历</p>
+                        <ol>
+                            <li><input type="radio" name="graduation" id="graduation-option1" value="A" required>
+                                <label for="graduation-option1">A.高中及以下</label>
+                            </li>
+                            <li><input type="radio" name="graduation" id="graduation-option2" value="B" required>
+                                <label for="graduation-option2">B.中专或大专</label>
+                            </li>
+                            <li><input type="radio" name="graduation" id="graduation-option3" value="C" required>
+                                <label for="graduation-option3">C.本科</label>
+                            </li>
+                            <li><input type="radio" name="graduation" id="graduation-option4" value="D" required>
+                                <label for="graduation-option4">D.硕士及以上</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">2. 您的职业为</p>
+                        <ol>
+                            <li><input type="radio" name="occupation" id="occupation-option1" value="A" required>
+                                <label for="occupation-option1">A.无固定职业</label>
+                            </li>
+                            <li><input type="radio" name="occupation" id="occupation-option2" value="B" required>
+                                <label for="occupation-option2">B.专业技术人员</label>
+                            </li>
+                            <li><input type="radio" name="occupation" id="occupation-option3" value="C" required>
+                                <label for="occupation-option3">C.一般企事业单位员工</label>
+                            </li>
+                            <li><input type="radio" name="occupation" id="occupation-option4" value="D" required>
+                                <label for="occupation-option4">D.金融行业一般从业人员</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">3. 您的家庭可支配年收入为（折合人民币）</p>
+                        <ol>
+                            <li><input type="radio" name="income" id="income-option1" value="A" required>
+                                <label for="income-option1">A.50万元以下</label>
+                            </li>
+                            <li><input type="radio" name="income" id="income-option2" value="B" required>
+                                <label for="income-option2">B.50—100万元</label>
+                            </li>
+                            <li><input type="radio" name="income" id="income-option3" value="C" required>
+                                <label for="income-option3">C.100—500万元</label>
+                            </li>
+                            <li><input type="radio" name="income" id="income-option4" value="D" required>
+                                <label for="income-option4">D.500—1000万元</label>
+                            </li>
+                            <li><input type="radio" name="income" id="income-option5" value="E" required>
+                                <label for="income-option5">E.1000万元以上</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">4. 在您每年的家庭可支配收入中，可用于金融投资（储蓄存款除外）的比例为？</p>
+                        <ol>
+                            <li><input type="radio" name="finance" id="finance-option1" value="A" required>
+                                <label for="finance-option1">A.小于10%</label>
+                            </li>
+                            <li><input type="radio" name="finance" id="finance-option2" value="B" required>
+                                <label for="finance-option2">B.10%至25%</label>
+                            </li>
+                            <li><input type="radio" name="finance" id="finance-option3" value="C" required>
+                                <label for="finance-option3">C.25%至50%</label>
+                            </li>
+                            <li><input type="radio" name="finance" id="finance-option4" value="D" required>
+                                <label for="finance-option4">D.大于50%</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">5. 您的投资知识可描述为：</p>
+                        <ol>
+                            <li><input type="radio" name="knowledge" id="knowledge-option1" value="A" required>
+                                <label for="knowledge-option1">A.有限：基本没有金融产品方面的知识</label>
+                            </li>
+                            <li><input type="radio" name="knowledge" id="knowledge-option2" value="B" required>
+                                <label for="knowledge-option2">B.一般：对金融产品及其相关风险具有基本的知识和理解</label>
+                            </li>
+                            <li><input type="radio" name="knowledge" id="knowledge-option3" value="C" required>
+                                <label for="knowledge-option3">C.丰富：对金融产品及其相关风险具有丰富的知识和理解</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">6. 您的投资经验可描述为：</p>
+                        <ol>
+                            <li><input type="radio" name="investExperience" id="investExperience-option1" value="A" required>
+                                <label for="investExperience-option1">A.除银行储蓄外，基本没有其他投资经验</label>
+                            </li>
+                            <li><input type="radio" name="investExperience" id="investExperience-option2" value="B" required>
+                                <label for="investExperience-option2">B.购买过债券、保险等理财产品</label>
+                            </li>
+                            <li><input type="radio" name="investExperience" id="investExperience-option3" value="C" required>
+                                <label for="investExperience-option3">C.参与过股票、基金等产品的交易</label>
+                            </li>
+                            <li><input type="radio" name="investExperience" id="investExperience-option4" value="D" required>
+                                <label for="investExperience-option4">D.参与过权证、期货、期权等产品的交易</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">7. 您有多少年投资基金、股票、信托、私募证券或金融衍生产品等风险投资品的经验？</p>
+                        <ol>
+                            <li><input type="radio" name="investExperienceYears" id="investExperienceYears-option1" value="A" required>
+                                <label for="investExperienceYears-option1">A.没有经验</label>
+                            </li>
+                            <li><input type="radio" name="investExperienceYears" id="investExperienceYears-option2" value="B" required>
+                                <label for="investExperienceYears-option2">B.少于2年</label>
+                            </li>
+                            <li><input type="radio" name="investExperienceYears" id="investExperienceYears-option3" value="C" required>
+                                <label for="investExperienceYears-option3">C.2至5年</label>
+                            </li>
+                            <li><input type="radio" name="investExperienceYears" id="investExperienceYears-option4" value="D" required>
+                                <label for="investExperienceYears-option4">D.5至10年</label>
+                            </li>
+                            <li><input type="radio" name="investExperienceYears" id="investExperienceYears-option5" value="E" required>
+                                <label for="investExperienceYears-option5">E.10年以上</label>
+                            </li>                         
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">8. 您计划的投资期限是多久？</p>
+                        <ol>
+                            <li><input type="radio" name="investTerm" id="investTerm-option1" value="A" required>
+                                <label for="investTerm-option1">A.1年以下</label>
+                            </li>
+                            <li><input type="radio" name="investTerm" id="investTerm-option2" value="B" required>
+                                <label for="investTerm-option2">B.1至3年</label>
+                            </li>
+                            <li><input type="radio" name="investTerm" id="investTerm-option3" value="C" required>
+                                <label for="investTerm-option3">C.3至5年</label>
+                            </li>
+                            <li><input type="radio" name="investTerm" id="investTerm-option4" value="D" required>
+                                <label for="investTerm-option4">D.3至5年</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">9. 您的投资目的是？</p>
+                        <ol>
+                            <li><input type="radio" name="investPurpose" id="investPurpose-option1" value="A" required>
+                                <label for="investPurpose-option1">A.资产保值</label>
+                            </li>
+                            <li><input type="radio" name="investPurpose" id="investPurpose-option2" value="B" required>
+                                <label for="investPurpose-option2">B.资产稳健增长</label>
+                            </li>
+                            <li><input type="radio" name="investPurpose" id="investPurpose-option3" value="C" required>
+                                <label for="investPurpose-option3">C.资产迅速增长</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">10. 以下哪项描述最符合您的投资态度？</p>
+                        <ol>
+                            <li><input type="radio" name="investAttitude" id="investAttitude-option1" value="A" required>
+                                <label for="investAttitude-option1">A.厌恶风险，不希望本金损失，希望获得稳定回报</label>
+                            </li>
+                            <li><input type="radio" name="investAttitude" id="investAttitude-option2" value="B" required>
+                                <label for="investAttitude-option2">B.保守投资，不希望本金损失，愿意承担一定幅度的收益波动</label>
+                            </li>
+                            <li><input type="radio" name="investAttitude" id="investAttitude-option3" value="C" required>
+                                <label for="investAttitude-option3">C.寻求资金的较高收益和成长性，愿意为此承担有限本金损失</label>
+                            </li>
+                            <li><input type="radio" name="investAttitude" id="investAttitude-option4" value="D" required>
+                                <label for="investAttitude-option4">D.希望赚取高回报，愿意为此承担较大本金损失</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">11. 假设有两种投资：投资A预期获得10%的收益，可能承担的损失非常小；投资B预期获得30%的收益，但可能承担较大亏损。您会怎么支配您的投资</p>
+                        <ol>
+                            <li><input type="radio" name="investDistribution" id="investDistribution-option1" value="A" required>
+                                <label for="investDistribution-option1">A.全部投资于收益较小且风险较小的A</label>
+                            </li>
+                            <li><input type="radio" name="investDistribution" id="investDistribution-option2" value="B" required>
+                                <label for="investDistribution-option2">B.同时投资于A和B，但大部分资金投资于收益较小且风险较小的A</label>
+                            </li>
+                            <li><input type="radio" name="investDistribution" id="investDistribution-option3" value="C" required>
+                                <label for="investDistribution-option3">C.同时投资于A和B，但大部分资金投资于收益较大且风险较大的B</label>
+                            </li>
+                            <li><input type="radio" name="investDistribution" id="investDistribution-option4" value="D" required>
+                                <label for="investDistribution-option4">D.全部投资于收益较大且风险较大的B</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                    <div class="question-item">
+                        <p style="font-weight:bold;">12. 您认为自己能承受的最大投资损失是多少？</p>
+                        <ol>
+                            <li><input type="radio" name="tolerableLoss" id="tolerableLoss-option1" value="A" required>
+                                <label for="tolerableLoss-option1">A.10%以内</label>
+                            </li>
+                            <li><input type="radio" name="tolerableLoss" id="tolerableLoss-option2" value="B" required>
+                                <label for="tolerableLoss-option2">B.10%-30%</label>
+                            </li>
+                            <li><input type="radio" name="tolerableLoss" id="tolerableLoss-option3" value="C" required>
+                                <label for="tolerableLoss-option3">C.30%-50%</label>
+                            </li>
+                            <li><input type="radio" name="tolerableLoss" id="tolerableLoss-option4" value="D" required>
+                                <label for="tolerableLoss-option4">D.超过50%</label>
+                            </li>                          
+                        </ol>
+                    </div>
+                </div>
+                <div class="message">
+                    <form class="message" id="myform" method="post" action="">
+                        <p>用户名:</p>
+                        <input type="text" id="myname" name="myname"  placeholder="请输入..."/>
+                        <p>密码:</p>
+                        <input id="password" name="password" type="password" placeholder="请输入..." required/>
+                         <p>密码确认:</p>
+                        <input id="confirm_password" name="confirm_password" type="password" />
+                        <p>邮箱:</p>
+                        <input id="email" name="email" />
+                        <a href="login.html">已有账号，现在登录</a>
+                        <button type="submit">注册</button>
+                    </form>
+                </div>
+        </section>            
+        
+        <!-- 尾部 -->
+        <footer>
+            <div class="footer">
+                <h2 class="footer-heading" style="font-family:Microsoft YaHei"><strong>明曦资本</strong></h2>
+                <br>
+                <ul class="list-unstyled footer-heading">
+                    <li>联系电话: 0571-56570410</li>
+                    <li>&nbsp;&nbsp;</li>
+                    <li>联系邮箱: contact@mingxifund.com</li>
+                    <li>&nbsp;&nbsp;</li>
+                    <li>微信公众号：明曦资本</li>
+                </ul>
+                <div class="footer-heading"><img src="img/15.jpg" height="150" width="150"></div>
+            </div>
+            <div class="text-center copyright">
+                &copy;2016 All Rights Reserved. 明曦（杭州）资产管理有限公司 浙ICP备16019070号-1
+            </div>
+        </footer>
+
+       <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function($) {
+            $(window).resize(function(){
+                if($(this).width()>980){
+                    $('.navigation1').css('display','none')
+                }
+            })
+            $('.logoa').click(function(){
+                $('.navigation1').fadeToggle();
+            });
+        });
+        </script>
+        <script type="text/javascript">
+            $(function(){
+            var validate = $("#myform").validate({
+                debug: true, //调试模式取消submit的默认提交功能   
+                //errorClass: "label.error", //默认为错误的样式类为：error   
+                focusInvalid: false, //当为false时，验证无效时，没有焦点响应  
+                onkeyup: false,   
+                submitHandler: function(form){   //表单提交句柄,为一回调函数，带一个参数：form   
+                    alert("提交成功");   
+                    form.submit();   //提交表单   
+                },   
+                
+                rules:{
+                    myname:{
+                        required:true
+                    }, 
+                    password:{
+                        required:true,
+                        rangelength:[3,10]
+                    },
+                    confirm_password:{
+                        equalTo:"#password"
+                    },
+                    email:{
+                        required:true,
+                        email:true
+                    }                   
+                },
+                messages:{
+                    myname:{
+                        required:"必填"
+                    },
+                    email:{
+                        required:"必填",
+                        email:"E-Mail格式不正确"
+                    },
+                    password:{
+                        required: "不能为空"
+                    },
+                    confirm_password:{
+                        equalTo:"两次密码输入不一致"
+                    }                                 
+                }
+                          
+            });    
+            jQuery.extend(jQuery.validator.messages, {  
+              required: "必选字段",  
+              remote: "请修正该字段",  
+              email: "请输入正确格式的电子邮件",  
+              url: "请输入合法的网址",  
+              date: "请输入合法的日期",  
+              dateISO: "请输入合法的日期 (ISO).",  
+              number: "请输入合法的数字",  
+              digits: "只能输入整数",  
+              creditcard: "请输入合法的信用卡号",  
+              equalTo: "请再次输入相同的值",  
+              accept: "请输入拥有合法后缀名的字符串",  
+              maxlength: jQuery.validator.format("请输入一个长度最多是 {0} 的字符串"),  
+              minlength: jQuery.validator.format("请输入一个长度最少是 {0} 的字符串"),  
+              rangelength: jQuery.validator.format("请输入一个长度介于 {0} 和 {1} 之间的字符串"),  
+              range: jQuery.validator.format("请输入一个介于 {0} 和 {1} 之间的值"),  
+              max: jQuery.validator.format("请输入一个最大为 {0} 的值"),  
+              min: jQuery.validator.format("请输入一个最小为 {0} 的值")  
+            }); 
+    
+        });
+        </script>
+</body>
+</html>

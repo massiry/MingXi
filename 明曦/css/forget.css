@@ -1,0 +1,13 @@
+.message>.btn{
+	height: 40px;
+	width: 143px;
+	padding: 5px 8px;
+	font-size: 14px;
+	text-align: center; 
+	background: #406da4;
+	border-style: none;
+	color: #fff;
+	float: right;
+	margin-top: 13px;
+	margin-right: 0;
+}
